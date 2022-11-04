@@ -27,7 +27,7 @@ System.Console.WriteLine("блок: ");
 arrayPrint(numRandom);
 int count = 0;
 
-for (int x = 0; z < numRandom.Length; x++)
+for (int x = 0; x < numRandom.Length; x++)
     if (numRandom[x] % 2 == 0)
         count++;
 
